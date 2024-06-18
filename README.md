@@ -1,8 +1,8 @@
 # WEBGPU Tutorial
 ## JS环境配置
 1. 安装nvm和nodejs
-[nodejs](https://nodejs.cn/download/current/)
-[nvm](https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.exe)
+- [nodejs](https://nodejs.cn/download/current/)
+- [nvm](https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.exe)
 2. 输入一下内容 确认安装环境正常
 ```bash
 node -v
