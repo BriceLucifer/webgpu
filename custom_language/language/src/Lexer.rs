@@ -35,6 +35,7 @@ fn is_int(src: &str) -> bool {
 pub fn tokenize(source_code: &str) -> Vec<Token> {
     let mut tokens = Vec::new();
 
+    // spplit_whitespace() 会直接将 “ ” “、n”
     for element in source_code.split_whitespace() {
         match element {
             "(" => tokens.push(Token::new(element.to_string(), TokenType::OpenParen)),
